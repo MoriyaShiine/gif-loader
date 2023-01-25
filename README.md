@@ -4,6 +4,8 @@ A Minecraft mod that adds support for rendering .GIF files
 
 This mod uses [Open-Imaging](https://github.com/DhyanB/Open-Imaging) by [DyhanB](https://github.com/DhyanB).
 
+This mod is built for Minecraft 1.19.2, but may work with other versions.
+
 # Installing
 
 If you wish to use this in a mod, add Jitpack to your repositories:

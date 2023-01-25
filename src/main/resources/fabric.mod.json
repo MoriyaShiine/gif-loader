@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "gif-loader",
+  "version": "${version}",
+  "name": "Gif Loader",
+  "description": "Adds support for rendering .GIF files",
+  "authors": [
+	"MoriyaShiine"
+  ],
+  "contributors": [
+	"DhyanB"
+  ],
+  "contact": {
+	"homepage": "https://www.curseforge.com/minecraft/mc-mods/gif-loader",
+	"sources": "https://github.com/MoriyaShiine/gif-loader",
+	"issues": "https://github.com/MoriyaShiine/gif-loader/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+	"client": [
+	  "moriyashiine.gifloader.client.GifLoader"
+	]
+  },
+  "mixins": [
+	"gifloader.mixins.json"
+  ]
+}

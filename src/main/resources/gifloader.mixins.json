@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moriyashiine.gifloader.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+	"client.RenderSystemMixin"
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}
